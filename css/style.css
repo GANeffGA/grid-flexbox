@@ -5,5 +5,41 @@
   body {
     margin: 0;
     font-family: Helvetica;
+    height: 75vh;
+   display: grid;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 50px 1fr 30px;
   }
+  
+  .flex-ctr {
+    line-height: 300px;
+    padding: 10px
+    height: 999px;
+    border: 2px solid green;
+    text-align: center;
+  }
+
+  
+  
+  .flex-sde {
+    line-height: 700px;
+    height: 700px;
+    border: 2px solid green;
+    text-align: center;
+  }
+  
+  .flex-btm {
+    line-height: 200px;
+    height: 200px;
+    width: 381px;
+    border: 2px solid green;
+    text-align: center;
+  }
+  
+  nav, footer {
+    grid-column: 1 / 3;
+  }
+
+  /* talk to instructors tomorrow about recurring bug issue. 
   
